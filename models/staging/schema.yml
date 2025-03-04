@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: staging
+    database: daring-anagram-448917-v1
+    schema: taxiridesny
+
+    tables:
+      - name: external_green_tripdata
+      - name: external_yellow_tripdata
+      
